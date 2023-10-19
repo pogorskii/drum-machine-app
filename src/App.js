@@ -14,7 +14,11 @@ function App() {
 
   return (
     <main className="App p-5">
-      <section className="container h-100 bg-warning p-4" id="drum-machine">
+      <section
+        className="container mh-100 bg-warning p-4"
+        style={{ maxWidth: 500 }}
+        id="drum-machine"
+      >
         <h1 className="mb-4">Drum Machine 3000</h1>
         <div
           className="mb-3 border bg-dark fs-1 text-warning"
